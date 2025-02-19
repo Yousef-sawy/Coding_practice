@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f1f1f1;
+    background-color: #D9FFF0;
+    /* padding: 10px; */
+}
+
+.container {
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container form .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.email-box {
+    width: 100%;
+    padding: 5px;
+}
+
+.email-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+form .user-details .input-box {
+
+    margin-bottom: 20px 0 12px 0;
+
+}
+
+.container form .input-box input {
+    height: 50px;
+    width: 100%;
+
+}
+
+.user-details .input-box details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #333;
+
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gender {
+    display: flex;
+    width: 100%;
+    margin: 10px 0 20px 0;
+}
+
+form .gender .gender-title {
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender .category {
+    width: 80%;
+    display: flex;
+    justify-content: start;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    margin-top: 10px;
+    resize: none;
+
+}
+
+form button {
+    height: 55px;
+    margin: 45px 0;
+    width: 100%;
+    background-color: #078D70;
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.checkbox {
+    display:flex ;
+    margin-top: 20px;
+
+}
+.first{
+    float:left;
+    width: 30px;
+}
+.second {
+    overflow: hidden;
+}
